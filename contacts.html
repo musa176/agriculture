@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Fields Farming Co.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <style>
+    /* Apply a light background color to the entire body, excluding navbar and footer */
+    body {
+      background-color: #f0f0f5; /* Light grey background */
+    }
+    /* Specific background colors for navbar and footer to maintain their style */
+    nav.navbar {
+      background-color: lightgray;
+    }
+    /* Increase font size and make navbar text bold */
+    nav.navbar .nav-link {
+      font-size: 1rem; /* Increase font size */
+      font-weight: bold; /* Make text bold */
+    }
+    footer {
+      background-color: #2E8B57;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg" style="padding: 15px;">
+  <div class="container">
+    <a class="navbar-brand" href="livestock.html">livestock</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="events.html">events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">contacts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="technology.html">technology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="crops.html">crops</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Spacer after Navbar -->
+<div class="my-4"></div>
+
+<!-- Cards Section -->
+<div class="container">
+  <div class="d-flex justify-content-center align-items-start flex-wrap">
+    <div class="card m-3" style="width: 26rem; height: auto;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <img src="https://i0.wp.com/www.foodformzansi.co.za/wp-content/uploads/2024/10/african-5973524_1920.jpg?resize=750%2C375&ssl=1" style="height: 180px; width: 100%; object-fit: cover;">
+        <h5 class="card-title text-center mt-3" style="font-size: 1.25rem;">Potential Investor</h5>
+        <p class="card-text text-center" style="font-size: 1rem;">
+          We welcome applications for agricultural projects (except tobacco and potable ethanol) in sub-Saharan Africa countries with low and lower-middle income brackets. Please review our investment criteria for more information.
+        </p>
+      </div>
+    </div>
+
+    <div class="card text-center m-3" style="width: 26rem; height: auto;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSieoTltlkyfg2V8sm0Vx4OJY8XNlpEoX21X8gmn2T9r3N_bZqVOZaA3hUUF9UZTvY5DY&usqp=CAU" style="height: 180px; width: 100%; object-fit: cover;">
+        <p class="card-text text-center mt-3" style="font-size: 1rem;">
+          With teams in London and on-the-ground presence in offices close to our investments, we can provide expert financial, operational, and agricultural knowledge across our growing network.
+        </p>
+      </div>
+    </div>
+
+    <div class="card text-end m-3" style="width: 26rem; height: auto;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <img src="https://african.business/wp-content/uploads/2023/05/farmerline800.webp" style="height: 180px; width: 100%; object-fit: cover;">
+        <h5 class="card-title text-center mt-3" style="font-size: 1.25rem;">Investing in Opportunities</h5>
+        <p class="card-text text-center" style="font-size: 1rem;">
+          We invest debt and equity, and provide hands-on support, to establish and develop commercial-scale agribusinesses in Africa.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Spacer between Cards and Contact Form -->
+<div class="my-5"></div>
+<!-- Contact Form Section -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <form action="https://formspree.io/f/xzzbejlz" method="POST">
+        <div class="mb-3">
+          <label for="username" class="form-label">User Name</label>
+          <input type="text" class="form-control" id="name" name="username" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success w-100">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer style="padding: 20px; text-align: center; margin-top: 30px;">
+  <div style="margin-bottom: 10px;">
+    <h3 style="margin-bottom: 5px;">Green Fields Farming Co.</h3>
+    <p style="font-size: 0.9em;">Promoting sustainable agriculture for a greener tomorrow</p>
+  </div>
+  <div style="margin-bottom: 15px;">
+    <a href="#technology" style="color: #FFD700; margin: 0 10px; text-decoration: none;">Technology</a> |
+    <a href="#events" style="color: #FFD700; margin: 0 10px; text-decoration: none;">Events</a> |
+    <a href="#livestock" style="color: #FFD700; margin: 0 10px; text-decoration: none;">Livestock</a>
+  </div>
+  <p style="font-size: 0.85em;">&copy; 2024 Green Fields Farming Co. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
